@@ -1,0 +1,58 @@
+.clock{
+    display: flex;
+    margin: auto;
+    position: relative;
+    height: 40vw;
+    width: 40vw;
+    background-image: url("yiogya7RT.jpeg") ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#minute{
+    width: 1.3%;
+    height: 25%;
+    background-color: black;
+    position: absolute;
+    background-color: black;
+    top: 22.5%;
+    left: 48.5%;
+    transform-origin: bottom;
+    
+}
+#hour{
+    position: absolute;
+    width: 1.5%;
+    height: 19%;
+    background-color: black;
+    top: 28%;
+    left: 48.5%;
+    transform-origin: bottom;
+}
+#second{
+    position: absolute;
+    width: 1.1%;
+    height: 30%;
+    background-color: black;
+    top: 18%;
+    left: 48.58%;
+    transform-origin: bottom;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+#digital-clock{
+    height: 10vw;
+    width: 30vw;
+    border: 2px solid red;
+    margin: auto;
+    display: flex;
+    
+}
+#dh{
+    font-size: 7vw;
+}
+#dm{
+    font-size: 7vw;
+}
+#ds{
+    font-size: 7vw;
+}
